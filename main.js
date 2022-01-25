@@ -1,4 +1,4 @@
-import './style.css'
+import './style.css';
 
 import * as THREE from 'three';
 import { Color } from 'three';
@@ -112,4 +112,4 @@ function animate() {
   renderer.render( scene, camera );
 };
 
-animate()
+animate();
